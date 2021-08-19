@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#s1">Home</a>
+      <a href="#s2">About</a>
+      <a href="#s3">Portfolio</a>
+    </nav>
+    <button id="toggle">열기</button>
+  </header>
+
+  <div class="fullpage">
+    <section id="s1">
+      <div>
+        <h2>Title</h2>
+        <p>여기에 타이틀 콘텐츠 추가</p>
+      </div>
+    </section>
+
+    <section id="s2">
+      <h2>About</h2>
+    </section>
+
+    <section id="s3">
+      <h2>Portfolio</h2>
+    </section>
+
+  </div><!-- end page -->
+
+  <script>
+    $(function(){
+      $('#toggle').click(function(){
+        $('nav').toggleClass('show');
+
+        // 버튼이 열리면 닫힘 표시 아니면 열림 표시(hasClass)
+        if(show){
+          // 버튼닫힘 표시
+        } else {
+          // 열림 표시
+        }
+
+      })
+
+    });
+  </script>
+</body>
+</html>
