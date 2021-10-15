@@ -50,7 +50,7 @@ section h2 {
   background: #9b59b6;
 }
 
-/* 컨테이너 설정 */
+/* 컨테이너 설정 - 높이 뷰포트 100vh */
 .fullpage {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
